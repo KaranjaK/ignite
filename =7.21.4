@@ -1,0 +1,39 @@
+Progress: resolved 0, reused 1, downloaded 0, added 0
+Progress: resolved 53, reused 47, downloaded 0, added 0
+ WARN  deprecated source-map-resolve@0.6.0: See https://github.com/lydell/source-map-resolve#deprecated
+Progress: resolved 303, reused 301, downloaded 1, added 0
+ WARN  deprecated svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+Progress: resolved 632, reused 619, downloaded 1, added 0
+Progress: resolved 1086, reused 1084, downloaded 1, added 0
+Packages: +2 -2
+++--
+Progress: resolved 1173, reused 1171, downloaded 1, added 2, done
+
+dependencies:
++ @testing-library/dom 8.14.0
+- @testing-library/user-event 13.5.0
++ @testing-library/user-event 13.5.0
+
+ WARN  Issues with peer dependencies found
+.
+└─┬ react-scripts
+  ├── ✕ missing peer typescript@"^3.2.1 || ^4"
+  ├─┬ eslint-config-react-app
+  │ ├── ✕ missing peer typescript@"*"
+  │ ├─┬ @typescript-eslint/eslint-plugin
+  │ │ ├── ✕ missing peer typescript@"*"
+  │ │ └─┬ @typescript-eslint/type-utils
+  │ │   ├── ✕ missing peer typescript@"*"
+  │ │   └─┬ @typescript-eslint/utils
+  │ │     └─┬ @typescript-eslint/typescript-estree
+  │ │       ├── ✕ missing peer typescript@"*"
+  │ │       └─┬ tsutils
+  │ │         └── ✕ missing peer typescript@">=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta"
+  │ └─┬ @typescript-eslint/parser
+  │   └── ✕ missing peer typescript@"*"
+  └─┬ react-dev-utils
+    └─┬ fork-ts-checker-webpack-plugin
+      └── ✕ missing peer typescript@">= 2.7"
+Peer dependencies that should be installed:
+  typescript@">=3.2.1 <4.0.0 || >=4.0.0 <5.0.0"
+
