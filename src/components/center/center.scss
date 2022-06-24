@@ -2,4 +2,9 @@
     margin: 0;
     padding: 0;
     flex: 8;
+    .charts{
+        display: flex;
+        padding: 2rem;
+        gap: 2rem;
+    }
 }

@@ -16,7 +16,7 @@ const Sidebar = () => {
         <img src={logo} alt="This is the company logo" className="logoi"/>
         <span className="title">TutorDash</span>
       </div>
-      <div className="center">
+      <div className="middle">
         <ul>
           <lh>
             Main Menu
