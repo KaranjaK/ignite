@@ -6,7 +6,6 @@ import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import PeopleIcon from '@mui/icons-material/People';
 import InsightsIcon from '@mui/icons-material/Insights';
 import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
-import SettingsIcon from '@mui/icons-material/Settings';
 import Settings from "@mui/icons-material/Settings";
 
 const Sidebar = () => {
