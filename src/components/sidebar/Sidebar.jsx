@@ -14,6 +14,7 @@ const Sidebar = () => {
     <div class='sidebar'>
       <div className="logo">
         <img src={logo} alt="This is the company logo" className="logoi"/>
+        <span className="title">TutorDash</span>
       </div>
       <div className="center">
         <ul>
@@ -56,7 +57,7 @@ const Sidebar = () => {
           </li>
         </ul>
       </div>
-      <div className="bottom">Login</div>
+      <div className="bottom">Logout</div>
     </div>
   )
 }

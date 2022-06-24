@@ -1,12 +1,37 @@
 .sidebar{
     margin: 0;
     padding: 0;
+    background-color: #081A51;
+    color: white;
+    flex: 1.5;
+    height: 100%;
     .logo{
+        margin: 1rem;
+        
+        display: flex;
+        align-items: center;
         .logoi{
-            width: 10rem;
+            width: 4rem;
+        }
+        .title{
+            font-family: Roboto;
+            font-size: 1.5rem;
         }
     }
     ul{
         list-style: none;
+        font-family: Adamina;
+        padding: 2rem;
+        lh{
+            color: #51CBFF;
+        }
+        li{
+            padding-top: 1rem;
+            margin-bottom: 1rem;
+        }
+    }
+    .bottom{
+        margin-left: 2rem;
+        font-family: Adamina;
     }
 }
