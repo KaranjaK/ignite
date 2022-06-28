@@ -4,7 +4,7 @@
     background-color: #081A51;
     color: white;
     flex: 1.5;
-    height: 100%;
+    height: auto;
     .logo{
         margin: 1rem;
         
@@ -22,7 +22,7 @@
         list-style: none;
         font-family: Adamina;
         padding: 2rem;
-        lh{
+        .listt{
             color: #51CBFF;
         }
         li{

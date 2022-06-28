@@ -4,11 +4,13 @@ import Chart from '..//chart/Chart'
 
 const Center = () => {
   return (
-    <div className='center'>
+    <div className="container-fluid">
+      <div className='center'>
         <div className="charts">
             <Progress />
             <Chart />
         </div>
+    </div>
     </div>
   )
 }

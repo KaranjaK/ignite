@@ -17,9 +17,9 @@ const Sidebar = () => {
       </div>
       <div className="middle">
         <ul>
-          <lh>
+          <li className="listt">
             Main Menu
-          </lh>
+          </li>
           <li>
             <HomeIcon />
             <span>Home</span>
@@ -28,9 +28,9 @@ const Sidebar = () => {
             <ChatIcon />
             <span>Inbox</span>
           </li>
-          <lh>
+          <li className="listt">
             <span>Workspace</span>
-          </lh>
+          </li>
           <li>
             <CalendarMonthIcon />
             <span>Schedule</span>
@@ -43,9 +43,9 @@ const Sidebar = () => {
             <InsightsIcon />
             <span>Analytics</span>
           </li>
-          <lh>
+          <li className="listt">
             <span>General</span>
-          </lh>
+          </li>
           <li>
             <AccessAlarmIcon />
             <span>Resources</span>
