@@ -12,7 +12,7 @@ const SCOPES =
   "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/calendar.readonly https://www.googleapis.com/auth/calendar.events https://www.googleapis.com/auth/calendar";
 
 
-const Calendar = () => {
+const Calendar1 = () => {
   
     const [events, setEvents] = useState(null);
 
@@ -178,4 +178,4 @@ const Calendar = () => {
 };
             
 
-export default Calendar;
+export default Calendar1;
