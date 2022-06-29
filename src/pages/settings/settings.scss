@@ -1,7 +1,26 @@
 .container-fluid {
     margin: 0;
     padding: 0;
+
     .settings {
         display: flex;
+
+        .set {
+            flex: 8;
+            display: flex;
+            margin: 4rem;
+
+            .set1 {
+                color: #081A51;
+
+                .icon {
+                    font-size: 20rem;
+                }
+            }
+
+            .set2 {
+                padding: 2rem;
+            }
+        }
     }
 }
