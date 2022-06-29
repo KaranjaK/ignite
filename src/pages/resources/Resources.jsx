@@ -1,8 +1,13 @@
+import Sidebar from '../../components/sidebar/Sidebar'
 import './resources.scss'
 
 const Resources = () => {
   return (
-    <div>Resources</div>
+    <div>
+      <div className="resources">
+        <Sidebar />
+      </div>
+    </div>
   )
 }
 

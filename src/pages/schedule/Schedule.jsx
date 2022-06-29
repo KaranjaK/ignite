@@ -1,8 +1,13 @@
+import Sidebar from '../../components/sidebar/Sidebar'
 import './schedule.scss'
 
 const Schedule = () => {
   return (
-    <div>Schedule</div>
+    <div className='container-fluid'>
+      <div className="schedule">
+        <Sidebar />
+      </div>
+    </div>
   )
 }
 

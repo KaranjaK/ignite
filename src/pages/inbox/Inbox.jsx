@@ -1,9 +1,14 @@
-import './inbox.scss'
+import Sidebar from "../../components/sidebar/Sidebar";
+import "./inbox.scss";
 
 const Inbox = () => {
   return (
-    <div>Inbox</div>
-  )
-}
+    <div className="container-fluid">
+      <div className="inbox">
+        <Sidebar />
+      </div>
+    </div>
+  );
+};
 
-export default Inbox
+export default Inbox;

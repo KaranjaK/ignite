@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import {HashRouter, Routes, Route, Link} from 'react-router-dom'
 import Home from "./pages/home/Home";
 import Inbox from "./pages/inbox/Inbox"
 import Schedule from "./pages/schedule/Schedule"
@@ -11,9 +11,15 @@ import Login from "./pages/login/Login"
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path='/ignite' element={<Login />} />
+      <HashRouter basename='/'>
+        <div>
+          <ul>
+            <li><Link to='/'>Login</Link></li>
+            <li><Link to='/home'>Home</Link></li>
+            <li><Link to='/inbox'>Inbox</Link></li>
+          </ul>
+
+          <Route exact path='/ignite' element={<Login />} />
           <Route path='/home' element={<Home />} />
           <Route path='/inbox' element={<Inbox />} />
           <Route path='/schedule' element={<Schedule />} />
@@ -22,8 +28,8 @@ function App() {
           <Route path='/resources' element={<Resources />} />
           <Route path='/settings' element={<Settings />} />
           <Route path='/login' element={<Login />} />
-        </Routes>
-      </BrowserRouter>
+        </div>
+      </HashRouter>
     </div>
   );
 }
