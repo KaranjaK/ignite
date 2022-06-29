@@ -1,0 +1,17 @@
+.chat {
+    box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.75);
+    margin: 1rem;
+    .top {
+        padding-left: 30%;
+        .chaticon {
+            color: #017EFA;
+            font-size: 2.5rem;
+        }
+
+        .chattext {
+            font-family: Adamina;
+            font-size: 1.5rem;
+        }
+    }
+}

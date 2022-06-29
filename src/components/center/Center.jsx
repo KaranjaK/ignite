@@ -2,6 +2,7 @@ import "./center.scss"
 import Progress from '..//progressbar/Progress'
 import Chart from '..//chart/Chart'
 import Calendar from "../calendar1/Calendar"
+import Chat from "../chat/Chat"
 
 const Center = () => {
   return (
@@ -13,6 +14,7 @@ const Center = () => {
         </div>
         <div className="date">
           <Calendar />
+          <Chat />
         </div>
     </div>
     </div>
