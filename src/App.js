@@ -11,7 +11,7 @@ import Login from "./pages/login/Login"
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path='/ignite' element={<Login />} />
           <Route path='/home' element={<Home />} />
@@ -23,7 +23,7 @@ function App() {
           <Route path='/settings' element={<Settings />} />
           <Route path='/login' element={<Login />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       {/* <Home /> */}
     </div>
   );
