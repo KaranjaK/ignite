@@ -13,7 +13,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path='/ignite' element={<Home />} />
+          <Route path='/ignite' element={<Login />} />
+          <Route path='home' element={<Home />} />
           <Route path='inbox' element={<Inbox />} />
           <Route path='schedule' element={<Schedule />} />
           <Route path='communities' element={<Communities />} />

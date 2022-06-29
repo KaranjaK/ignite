@@ -1,0 +1,78 @@
+.container-fluid {
+    margin: 0;
+    padding: 0;
+
+    .login {
+        display: flex;
+
+        .left {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #081A51;
+            height: 100vh;
+            padding-top: 10%;
+            color: whitesmoke;
+            font-family: Roboto;
+            font-weight: 900;
+            font-size: 5rem;
+
+            .logoi {
+                width: 4rem;
+            }
+        }
+
+        .right {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            form {
+                width: 400px;
+                color: #000;
+                top: 20%;
+                left: 60%;
+                padding: 60px 30px;
+                position: absolute;
+                box-sizing: border-box;
+                box-shadow: 8px 8px 50px #081A51;
+            }
+            .header{
+                font-family: Roboto;
+                font-weight: 900;
+                color: #081A51;
+                padding-left: 30%;
+            }
+            .form-control {
+                border: none;
+                border-bottom: 1px solid #ddd;
+                background: transparent;
+                outline: none;
+                height: 50px;
+                font-size: 16px;
+                opacity: 1;
+                color: black;
+                width: 300%;
+            }
+
+            .custom-control {
+                width: 300%;
+                padding: 2rem;
+
+                .custom-control-label {
+                    padding-left: 2rem;
+                }
+            }
+
+            .btn {
+                border: none;
+                outline: none;
+                font-family: Roboto;
+                font-weight: 900;
+                height: 3rem;
+            }
+        }
+    }
+}
