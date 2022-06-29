@@ -12,13 +12,12 @@ function App() {
     <div className="App">
       <Routes>
         <Route exact path="/ignite" element={<Login />} />
-        <Route path="/home/" element={<Home />} />
-        <Route path="/inbox" element={<Inbox />} />
-        <Route path="/schedule" element={<Schedule />} />
-        <Route path="/communities" element={<Communities />} />
-        <Route path="/resources" element={<Resources />} />
-        <Route path="/settings" element={<Settings />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/ignite/home" element={<Home />} />
+        <Route path="/ignite/inbox" element={<Inbox />} />
+        <Route path="/ignite/schedule" element={<Schedule />} />
+        <Route path="/ignite/communities" element={<Communities />} />
+        <Route path="/ignite/resources" element={<Resources />} />
+        <Route path="/ignite/settings" element={<Settings />} />
       </Routes>
     </div>
   );
