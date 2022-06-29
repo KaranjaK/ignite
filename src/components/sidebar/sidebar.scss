@@ -3,10 +3,11 @@
     padding: 0;
     background-color: #081A51;
     color: white;
-    flex: 1.5;
+    flex: 1;
     height: auto;
     .logo{
-        margin: 1rem;        
+        margin-top: .5em;
+        margin-bottom: -2rem;        
         display: flex;
         align-items: center;
         .logoi{

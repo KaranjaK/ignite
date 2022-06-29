@@ -13,7 +13,7 @@ const Login = () => {
           <span>to get Smarter</span>
         </div>
         <div className="right">
-          <form action="">
+          <form action="/home">
             <h1 className="header">Log In</h1>
             <div className="col-md-4">
               <input

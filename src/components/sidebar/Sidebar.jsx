@@ -39,15 +39,19 @@ const Sidebar = () => {
           <li className="listt">
             <span>Workspace</span>
           </li>
-          <Link to="/schedule"
-            style={{ textDecoration: "none", color: "whitesmoke" }}>
+          <Link
+            to="/schedule"
+            style={{ textDecoration: "none", color: "whitesmoke" }}
+          >
             <li>
               <CalendarMonthIcon />
               <span>Schedule</span>
             </li>
           </Link>
-          <Link to="/communities"
-            style={{ textDecoration: "none", color: "whitesmoke" }}>
+          <Link
+            to="/communities"
+            style={{ textDecoration: "none", color: "whitesmoke" }}
+          >
             <li>
               <PeopleIcon />
               <span>Communities</span>
@@ -56,15 +60,19 @@ const Sidebar = () => {
           <li className="listt">
             <span>General</span>
           </li>
-          <Link to="/resources"
-            style={{ textDecoration: "none", color: "whitesmoke" }}>
+          <Link
+            to="/resources"
+            style={{ textDecoration: "none", color: "whitesmoke" }}
+          >
             <li>
               <AccessAlarmIcon />
               <span>Resources</span>
             </li>
           </Link>
-          <Link to="/settings"
-            style={{ textDecoration: "none", color: "whitesmoke" }}>
+          <Link
+            to="/settings"
+            style={{ textDecoration: "none", color: "whitesmoke" }}
+          >
             <li>
               <Settings />
               <span>Settings</span>
@@ -72,7 +80,13 @@ const Sidebar = () => {
           </Link>
         </ul>
       </div>
-      <div className="bottom">Logout</div>
+      <div className="bottom">
+        <form action="/login">
+          <button type="submit" className="btn btn-danger" onClick={"/login"}>
+            Logout
+          </button>
+        </form>
+      </div>
     </div>
   );
 };
