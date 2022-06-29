@@ -3,5 +3,8 @@
     padding: 0;
     .schedule {
         display: flex;
+        .cal{
+            flex: 8;
+        }
     }
 }

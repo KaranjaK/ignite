@@ -4,7 +4,6 @@ import HomeIcon from "@mui/icons-material/Home";
 import ChatIcon from "@mui/icons-material/Chat";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import PeopleIcon from "@mui/icons-material/People";
-import InsightsIcon from "@mui/icons-material/Insights";
 import AccessAlarmIcon from "@mui/icons-material/AccessAlarm";
 import Settings from "@mui/icons-material/Settings";
 import { Link } from "react-router-dom";
@@ -52,13 +51,6 @@ const Sidebar = () => {
             <li>
               <PeopleIcon />
               <span>Communities</span>
-            </li>
-          </Link>
-          <Link to="/analytics"
-            style={{ textDecoration: "none", color: "whitesmoke" }}>
-            <li>
-              <InsightsIcon />
-              <span>Analytics</span>
             </li>
           </Link>
           <li className="listt">

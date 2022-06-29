@@ -1,7 +1,10 @@
-.container-fluid {
-    margin: 0;
-    padding: 0;
-    .resources {
-        display: flex;
+.resources {
+    display: flex;
+    .rescenter{
+        flex: 8;
+        margin: 18rem 6rem;
+        color: #081A51;
+        font-family: Roboto;
+        font-weight: 900;
     }
 }

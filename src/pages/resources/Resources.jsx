@@ -6,6 +6,9 @@ const Resources = () => {
     <div>
       <div className="resources">
         <Sidebar />
+        <div className="rescenter">
+          <h1>There are no Available Resources Currently</h1>
+        </div>
       </div>
     </div>
   )
