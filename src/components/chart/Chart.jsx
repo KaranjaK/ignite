@@ -1,7 +1,7 @@
 import './chart.scss'
 import DisplaySettingsIcon from '@mui/icons-material/DisplaySettings';
 import 'react-circular-progressbar/dist/styles.css'
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer, Tooltip } from 'recharts';
+import { PieChart, Pie, ResponsiveContainer, Tooltip } from 'recharts';
 
 const data01 = [
   { name: 'Male', value: 400 },

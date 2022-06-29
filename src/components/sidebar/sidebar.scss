@@ -6,8 +6,7 @@
     flex: 1.5;
     height: auto;
     .logo{
-        margin: 1rem;
-        
+        margin: 1rem;        
         display: flex;
         align-items: center;
         .logoi{
@@ -15,6 +14,7 @@
         }
         .title{
             font-family: Roboto;
+            font-weight: 900;
             font-size: 1.5rem;
         }
     }
