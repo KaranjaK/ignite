@@ -14,14 +14,14 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/ignite' element={<Login />} />
-          <Route path='home' element={<Home />} />
-          <Route path='inbox' element={<Inbox />} />
-          <Route path='schedule' element={<Schedule />} />
-          <Route path='communities' element={<Communities />} />
-          <Route path='analytics' element={<Analytics />} />
-          <Route path='resources' element={<Resources />} />
-          <Route path='settings' element={<Settings />} />
-          <Route path='login' element={<Login />} />
+          <Route path='/home' element={<Home />} />
+          <Route path='/inbox' element={<Inbox />} />
+          <Route path='/schedule' element={<Schedule />} />
+          <Route path='/communities' element={<Communities />} />
+          <Route path='/analytics' element={<Analytics />} />
+          <Route path='/resources' element={<Resources />} />
+          <Route path='/settings' element={<Settings />} />
+          <Route path='/login' element={<Login />} />
         </Routes>
       </BrowserRouter>
       {/* <Home /> */}
