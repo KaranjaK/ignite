@@ -1,0 +1,14 @@
+.datatables{
+    flex: 8;
+    height: 100%;
+    width: 100%;
+    .title{
+        margin: 2rem;
+        font-family: Roboto;
+        font-weight: 900;
+        color: #081A51;
+    }
+    .grid{
+        height: 30rem;
+    }
+}

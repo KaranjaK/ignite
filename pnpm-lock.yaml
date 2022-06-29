@@ -11,6 +11,8 @@ specifiers:
   '@fullcalendar/react': ^5.11.1
   '@mui/icons-material': ^5.8.4
   '@mui/material': ^5.8.5
+  '@mui/system': ^5.4.1
+  '@mui/x-data-grid': ^5.12.3
   '@popperjs/core': ^2.10.2
   '@syncfusion/ej2-react-calendars': ^20.1.58
   '@testing-library/dom': ^8.14.0
@@ -44,6 +46,8 @@ dependencies:
   '@fullcalendar/react': 5.11.1_sfoxds7t5ydpegc3knd667wn6m
   '@mui/icons-material': 5.8.4_t6nctec72ngjgi7k4sttujzp6i
   '@mui/material': 5.8.5_bk6rmx7robimclftfia7dcxft4
+  '@mui/system': 5.8.5_z5dax4wbbvawomfdisf4dzswiq
+  '@mui/x-data-grid': 5.12.3_upgejfmgkngre4t522vtlm5txi
   '@popperjs/core': 2.11.5
   '@syncfusion/ej2-react-calendars': 20.1.58
   '@testing-library/dom': 8.14.0
@@ -2223,6 +2227,26 @@ packages:
       prop-types: 15.8.1
       react: 17.0.2
       react-is: 17.0.2
+    dev: false
+
+  /@mui/x-data-grid/5.12.3_upgejfmgkngre4t522vtlm5txi:
+    resolution: {integrity: sha512-57A2MkRR/uUNC/dECFV0YDJvi1Q+gQgmgw1OHmZ1uSnKh29PcHpswkdapO0LueLpxAy8tfH+fTtnnPDmYgJeUg==}
+    engines: {node: '>=12.0.0'}
+    peerDependencies:
+      '@mui/material': ^5.4.1
+      '@mui/system': ^5.4.1
+      react: ^17.0.2 || ^18.0.0
+      react-dom: ^17.0.2 || ^18.0.0
+    dependencies:
+      '@babel/runtime': 7.18.3
+      '@mui/material': 5.8.5_bk6rmx7robimclftfia7dcxft4
+      '@mui/system': 5.8.5_z5dax4wbbvawomfdisf4dzswiq
+      '@mui/utils': 5.8.4_react@17.0.2
+      clsx: 1.1.1
+      prop-types: 15.8.1
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+      reselect: 4.1.6
     dev: false
 
   /@nodelib/fs.scandir/2.1.5:
@@ -9143,6 +9167,10 @@ packages:
 
   /requires-port/1.0.0:
     resolution: {integrity: sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==}
+    dev: false
+
+  /reselect/4.1.6:
+    resolution: {integrity: sha512-ZovIuXqto7elwnxyXbBtCPo9YFEr3uJqj2rRbcOOog1bmu2Ag85M4hixSwFWyaBMKXNgvPaJ9OSu9SkBPIeJHQ==}
     dev: false
 
   /resize-observer-polyfill/1.5.1:
